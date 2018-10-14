@@ -1,0 +1,25 @@
+<div class="container">
+
+<div class="header">
+  <p><B>TABLE</B></p>
+</div>
+
+<div class="body">
+<app-table></app-table>
+<app-table></app-table>
+<app-table></app-table>
+<app-table></app-table>
+<app-table></app-table>
+<app-table></app-table>
+<app-table></app-table>
+<app-table></app-table>
+</div>
+
+<div class="footer" >
+  <div class="tab" *ngFor="let tab of tabs">
+      <img [src]="tab.icon" [alt]="tab.name" (click)="clickTab(tab)">
+  </div>
+
+</div>
+
+</div>

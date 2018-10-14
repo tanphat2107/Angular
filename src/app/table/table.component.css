@@ -1,0 +1,26 @@
+.table {
+    height: 100px;
+    width: 130px;
+    background-color: #775333;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.table-header {
+    height: 60px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 15px 5px 0 5px;
+}
+
+.table-body {
+    height: 60px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin: 15px 5px 0 5px;
+}
